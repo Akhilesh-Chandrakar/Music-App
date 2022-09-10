@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100&family=Varela+Round&display=swap');
+body{
+    background-color: gray;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Anek Malayalam', sans-serif;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    background-color: rgb(13, 13, 15);
+    color: white;
+    
+}
+nav ul li{
+    padding: 15px 12px;
+
+}
+.brand img{
+    width: 54px;
+    padding: 0px 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    
+    margin: 23px auto;
+    border-radius: 12px;
+    background-image: url("man-singing-on-stage.jpg" );
+}
+.songitemcontainer{
+    margin-top: 26px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+#progress{
+    width: 80vw;
+}
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 70%;
+    margin: 12px 22px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.songlist{
+    margin: 23px 28px;
+    font-size: 1em;
+    text-align: justify;
+}
+.icons{
+    margin: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
